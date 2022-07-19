@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Tailwind CSS</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <script>
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+  <body bgcolor="bg-blue">
+    
+    
+    <title>Portfolio</title>
+    <div class="px-4">
+      <p class="block py-6 bg-cyan-500 font-bold text-black ">KRISHNAPRIYA.N</p>
+    </div>
+    <nav class="md:ml-auto flex flex-wrap pt-10 bg-gradient-to-r items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="#about">About Me</a>
+      <a class="mr-5 hover:text-gray-900" href="#education">Education</a>
+      <a class="mr-5 hover:text-gray-900" href="#skills">Skills</a>
+      <a class="mr-5 hover:text-gray-900" href="pdf link">Resume</a>
+      <a class="mr-5 hover:text-gray-900" href="#contact">Contact Me</a>
+    </nav>
+    
+    <!-- header -->
+    
+      <header class="text-gray-700 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        
+        
+        <hr>
+      </a>
+      
+      
+      <hr>
+      
+      
+      <section id="home" class="pt-26 dark:bg-dark">
+        <div class="container">
+          <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+              <h1 class="text-base font-semibold bg-slate-100 text-primary md:text-xl">Hi
+                 👋 </h1>
+              <h2 class="mb-5 text-lg font-medium text-secondary lg:text-2xl">Content Creator<span class="text-dark dark:text-white"></span></h2>
+              
+              <p class="mb-10 font-medium leading-relaxed text-secondary">a 22 year old developer who loves to code.</p><hr>
+  
+            
+            </div>
+           
+            <div class="w-full self-end px-4 lg:w-1/2">
+              <div class="relative mt-10 lg:right-0 lg:mt-9">
+                <img src="girl.jpg"  width="300" alt="krishnapriya" class="relative z-10 mx-auto max-w-full" />
+                <hr>
+                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
+                  
+                    <path
+                      fill="#14b8a6"
+                      d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
+                      transform="translate(100 100) scale(1.1)"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+     
+    </div>
+  </header>
+
+  
+  
+  <!-- about me -->
+  <a name="about"></a>
+  <div id="about">
+    <section class="text-gray-700 body-font">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Me</h1>
+          <p class="mb-8 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum quam a justo dapibus mollis. Mauris bibendum leo mi, sit amet vestibulum lectus maximus quis. Cras rhoncus vulputate porta. Nam convallis enim nec nisl viverra, id porta lacus fermentum. Aliquam fermentum, ante eu consequat egestas, lacus odio dictum eros, at blandit quam risus non nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean neque sapien, accumsan et porttitor non, euismod vitae ante. In condimentum erat eget venenatis tempus.
+          </p>
+          <div class="flex justify-center">
+        </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <!-- education -->
+  <a name="education"></a>
+  <div id="education">
+    <section class="text-gray-700 body-font">
+      <center>
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Education</h1>
+      </center>
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+              <i class="fa fa-university"></i>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Institution</h2>
+              <p class="leading-relaxed">Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+          <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+              <i class="fa fa-university"></i>
+            </div>
+            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+              <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Institution</h2>
+              <p class="leading-relaxed">Details</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+          </div>
+    </section>
+  </div>
+  
+  
+  </div>
+  
+  <!-- skills -->
+  <a name="skills"></a>
+  <div id="skills">
+    <section class="text-gray-700 body-font">
+      <div class="container px-5 py-24 pt-36 mx-auto">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Skills</h1>
+          
+        </div>
+        <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium">C++</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium">PYTHON</span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium">HTML</span>
+            </div>
+          </div>
+         
+          
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  
+  
+  <!-- contact me -->
+  <a name="contact"></a>
+  <section id="contact">
+    <footer class="text-gray-700 body-font">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          
+        
+          <a href="mailto:name@example.com" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">email</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500" href="facebook link">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500" href="twitter link">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500" href="instagram link">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500" href="linkedin link">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </section>
+  
+  </div>
+  
+  
+    </body>
+  </html>
